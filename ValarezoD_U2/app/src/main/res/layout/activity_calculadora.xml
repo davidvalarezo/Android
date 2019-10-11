@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Calculadora">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.65999997">
+        <!--
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+        </TableRow>-->
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="@dimen/b_calculatorX"
+                android:layout_height="@dimen/b_calculatorX"
+                android:text="1" />
+
+            <Button
+                android:id="@+id/b2"
+                android:layout_width="@dimen/b_calculatorX"
+                android:layout_height="@dimen/b_calculatorX"
+                android:text="2" />
+
+            <Button
+                android:id="@+id/b3"
+                android:layout_width="@dimen/b_calculatorX"
+                android:layout_height="@dimen/b_calculatorX"
+                android:text="3" />
+
+            <Button
+                android:id="@+id/bplas"
+                android:layout_width="@dimen/b_calculatorX"
+                android:layout_height="@dimen/b_calculatorX"
+                android:text="+" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/b4"
+                android:layout_width="@dimen/b_calculatorX"
+                android:layout_height="@dimen/b_calculatorX"
+                android:text="4" />
+
+            <Button
+                android:id="@+id/b5"
+                android:layout_width="@dimen/b_calculatorX"
+                android:layout_height="@dimen/b_calculatorX"
+                android:text="5" />
+
+            <Button
+                android:id="@+id/b6"
+                android:layout_width="@dimen/b_calculatorX"
+                android:layout_height="@dimen/b_calculatorX"
+                android:text="6" />
+
+            <Button
+                android:id="@+id/bequal"
+                android:layout_width="@dimen/b_calculatorX"
+                android:layout_height="@dimen/b_calculatorX"
+                android:text="=" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/b7"
+                android:layout_width="@dimen/b_calculatorX"
+                android:layout_height="@dimen/b_calculatorX"
+                android:text="7" />
+
+            <Button
+                android:id="@+id/b8"
+                android:layout_width="@dimen/b_calculatorX"
+                android:layout_height="@dimen/b_calculatorX"
+                android:text="8" />
+
+            <Button
+                android:id="@+id/b9"
+                android:layout_width="@dimen/b_calculatorX"
+                android:layout_height="@dimen/b_calculatorX"
+                android:text="9" />
+
+            <Button
+                android:id="@+id/bPts"
+                android:layout_width="@dimen/b_calculatorX"
+                android:layout_height="@dimen/b_calculatorX"
+                android:text="Pts" />
+        </TableRow>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:baselineAligned="false">
+
+            <Button
+                android:id="@+id/b0"
+                android:layout_width="@dimen/b_calculatorY"
+                android:layout_height="@dimen/b_calculatorX"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/bC"
+                android:layout_width="@dimen/b_calculatorX"
+                android:layout_height="@dimen/b_calculatorX"
+                android:text="C" />
+        </LinearLayout>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/pantalla"
+        style="@style/TextStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/style_borde"
+        android:ems="16"
+        android:gravity="center|end"
+        android:hint="0.0"
+        android:inputType="textPersonName"
+        android:shadowColor="#3F51B5"
+        android:shadowRadius="2"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="@+id/tableLayout"
+        app:layout_constraintStart_toStartOf="@+id/tableLayout" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/tab4_name"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/pantalla"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

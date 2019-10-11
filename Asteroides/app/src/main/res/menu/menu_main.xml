@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_settings"
+        android:title="Preferencias"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+    <item android:title="@string/Acercade"
+        android:id="@+id/acercaDe"
+        android:icon="@android:drawable/ic_menu_info_details"/>
+    <item android:title="@string/Salir"
+        android:id="@+id/salida"
+        android:icon="@android:drawable/ic_menu_info_details"/>
+</menu>

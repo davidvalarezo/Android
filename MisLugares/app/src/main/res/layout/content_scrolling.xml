@@ -29,13 +29,13 @@
             android:text="@string/preference" />
 
         <Button
-            android:id="@+id/button8"
+            android:id="@+id/b_about"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/about" />
 
         <Button
-            android:id="@+id/button9"
+            android:id="@+id/b_exit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/exit" />

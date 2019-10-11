@@ -5,7 +5,7 @@
         <!-- Customize your theme here. -->
         <item name="android:typeface">sans</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:textColor">@color/colorBlue</item>
+        <!--item name="android:textColor">@color/colorPrimaryDark</item-->
         <item name="colorPrimary">@color/colorBlue</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>

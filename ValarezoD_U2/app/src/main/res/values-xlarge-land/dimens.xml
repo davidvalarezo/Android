@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_botones">150dp</dimen>
+    <dimen name="fab_margin">32dp</dimen>
+    <dimen name="b_calculatorX">64sp</dimen>
+    <dimen name="b_calculatorY">192sp</dimen>
+</resources>

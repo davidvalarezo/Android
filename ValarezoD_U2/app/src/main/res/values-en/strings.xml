@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ValarezoD_U2</string>
+    <string name="Arrancar">Play</string>
+    <string name="Configurar">Setting</string>
+    <string name="Acercade">About</string>
+    <string name="Salir">Exit</string>
+    <string name="titleApp">Asteroids</string>
+    <string name="action_setting">Configuration</string>
+    <string name="about_text">This program has been developed like the example in Android class</string>
+    <!-- Segunda Lengueta. -->
+    <string name="tab2_name">Layout</string>
+    <string name="Saludo">Hello</string>
+    <string name="Resultado">Result</string>
+    <string name="In">Enter a number</string>
+
+    <string name="tab3_name">Button</string>
+    <string name="tab4_name">Calculator</string>
+    <string name="error_cal">Error</string>
+</resources>

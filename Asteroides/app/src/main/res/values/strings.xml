@@ -6,5 +6,6 @@
     <string name="Salir">Salir</string>
     <string name="titleApp">Asteroides</string>
     <string name="action_setting">Configuración</string>
+    <string name="about_text">Este programa ha sido desarrollado como ejemplo en la clase de Android</string>
 
 </resources>

@@ -15,5 +15,7 @@
     <string name="url">Url:</string>
     <string name="legend_url">Web page</string>
     <string name="comentary">Commentary:</string>
+    <string name="about_text">This program has been developed like the example in Android class</string>
     <string name="legend_comentary">Enter your notes</string>
+    <string name="action_settings">Settings</string>
 </resources>

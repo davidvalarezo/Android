@@ -1,23 +1,44 @@
 package org.example.mislugares;
 
+import android.content.Intent;
 import android.os.Bundle;
 
+import com.google.android.material.bottomnavigation.BottomNavigationItemView;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.ButtonBarLayout;
 import androidx.appcompat.widget.Toolbar;
 
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
 
 public class ScrollingActivity extends AppCompatActivity {
+    private Button bSalir,bAbout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_scrolling);
+        bSalir = (Button) findViewById(R.id.b_exit);
+        bSalir.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
+
+        bAbout = (Button) findViewById(R.id.b_about);
+        bAbout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                lanzarAcercaDe(null);
+            }
+        });
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -49,6 +70,19 @@ public class ScrollingActivity extends AppCompatActivity {
         if (id == R.id.action_settings) {
             return true;
         }
+        if (id == R.id.action_about){
+            lanzarAcercaDe(null);
+            return true;
+        }
         return super.onOptionsItemSelected(item);
     }
+
+    public void lanzarAcercaDe (View view){
+        Intent i = new Intent(this,AcercaDeActivity.class );
+        startActivity(i);
+    }
+
+    /*public void salir (View view){
+        finish();
+    }*/
 }
