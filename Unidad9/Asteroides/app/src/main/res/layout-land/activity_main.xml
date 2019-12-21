@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/fondo5"
+    android:padding="@dimen/margin_botones">
+
+    <ImageView
+        android:id="@+id/icono"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        app:srcCompat="@mipmap/ic_icono_asteroids" />
+
+    <TextView
+        android:id="@+id/titleAsteroid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:textColor="@color/colorWhite"
+        android:text="@string/titleApp"
+        android:textSize="25sp" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="*"
+        android:gravity="center">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/b_play"
+                style="@style/ButtonStyleCalculator"
+                android:text="@string/Arrancar" />
+
+            <Button
+                android:id="@+id/b_setting"
+                style="@style/ButtonStyleCalculator"
+                android:text="@string/Configurar" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/b_about"
+                style="@style/ButtonStyleCalculator"
+                android:text="@string/Acercade" />
+
+            <Button
+                android:id="@+id/b_score"
+                style="@style/ButtonStyleCalculator"
+                android:text="@string/Score" />
+        </TableRow>
+
+    </TableLayout>
+</LinearLayout>

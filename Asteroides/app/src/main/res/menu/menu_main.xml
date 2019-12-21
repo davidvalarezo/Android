@@ -12,4 +12,9 @@
     <item android:title="@string/Salir"
         android:id="@+id/salida"
         android:icon="@android:drawable/ic_menu_info_details"/>
+    <item android:title="Buscar"
+        android:id="@+id/menu_buscar"
+        android:icon="@android:drawable/ic_menu_search"
+        android:orderInCategory="115"
+        app:showAsAction="always|collapseActionView"/>
 </menu>

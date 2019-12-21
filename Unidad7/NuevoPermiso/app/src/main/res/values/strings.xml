@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Nuevo Permiso</string>
+    <string name="etiqueta"> reproducción de vídeos bajo demanda </string>
+    <string name="descripcion">Permite a la aplicación reproducir vídeos de la empresa PayPerView sin tu intervención.
+        Se trata de un servicio no gratuito, por lo que puede afectar al saldo de tu cuenta con esta empresa. Si no tienes
+        una cuenta abierta los vídeos no podrán ser reproducidos. </string>
+</resources>

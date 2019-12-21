@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_settings"
+        android:title="@string/preferences"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:orderInCategory="5"
+        app:showAsAction="never"/>
+    <item android:title="@string/Acercade"
+        android:id="@+id/acercaDe"
+        android:iconTint="@color/colorWhite"
+        android:icon="@drawable/ic_info_white"
+        android:orderInCategory="10"
+        app:showAsAction="ifRoom|withText"/>
+    <item android:title="@string/Salir"
+        android:id="@+id/salida"
+        android:iconTintMode="@color/colorWhite"
+        android:visible="false"
+         android:enabled="false"
+        android:icon="@android:drawable/ic_menu_info_details"/>
+    <item android:title="Buscar"
+        android:id="@+id/menu_buscar"
+        android:iconTint="@color/colorWhite"
+        android:icon="@drawable/ic_search_white"
+        android:orderInCategory="115"
+        android:visible="false"
+        app:showAsAction="always|collapseActionView"/>
+</menu>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/margin_botones"
+    android:background="@drawable/fondo4"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/icono"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        app:srcCompat="@mipmap/ic_icono_asteroids" />
+
+    <TextView
+        android:id="@+id/titleAsteroid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:textColor="@color/colorWhite"
+        android:text="@string/titleApp"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/b_play"
+        style="@style/ButtonStyleCalculator"
+        android:text="@string/Arrancar" />
+
+    <Button
+        android:id="@+id/b_setting"
+        style="@style/ButtonStyleCalculator"
+        android:text="@string/Configurar" />
+
+    <Button
+        android:id="@+id/b_about"
+        style="@style/ButtonStyleCalculator"
+        android:text="@string/Acercade" />
+
+    <Button
+        android:id="@+id/b_score"
+        style="@style/ButtonStyleCalculator"
+        android:text="@string/Score" />
+</LinearLayout>

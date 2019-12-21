@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="preferencias_principal" >
+    <SwitchPreference
+        android:key="musica"
+        android:title="@string/title_music"
+        android:summary="@string/summary_music"/>
+    <ListPreference
+        android:key="graficos"
+        android:title="@string/title_graphics"
+        android:summary="@string/summary_graphics"
+        android:entries="@array/tiposGraficos"
+        android:entryValues="@array/tiposGraficosValores"
+        android:defaultValue="0"/>
+    <EditTextPreference
+        android:key="fragmentos"
+        android:title="@string/title_fragments"
+        android:summary="@string/summary_fragments"
+        android:inputType="number"
+        android:defaultValue="3"/>
+    <PreferenceCategory android:title="@string/mode_play">
+        <ListPreference
+            android:key="control"
+            android:title="@string/game_controls"
+            android:summary="@string/summary_controls"
+            android:entries="@array/Controladores"
+            android:entryValues="@array/ControladoresValores"
+            android:defaultValue="0"/>
+    </PreferenceCategory >
+    <PreferenceCategory android:title="@string/title_storage">
+        <ListPreference
+            android:key="storage"
+            android:summary="@string/summary_storage"
+            android:title="@string/mode_storage"
+            android:entries="@array/Storage"
+            android:entryValues="@array/StorageValores"
+            android:defaultValue="0"/>
+        <ListPreference
+            android:key="extDirPath"
+            android:summary="@string/summary_extDirPath"
+            android:title="@string/mode_extDirPath"
+            android:entries="@array/ExternalStorage"
+            android:entryValues="@array/ExternalStorageValores"
+            android:defaultValue="0"/>
+    </PreferenceCategory >
+    <!--PreferenceScreen android:title="Modo multijugador">
+        <ListPreference
+            android:key="storage"
+            android:summary="@string/summary_storage"
+            android:title="@string/mode_storage"
+            android:entries="@array/Storage"
+            android:entryValues="@array/StorageValores"
+            android:defaultValue="0"/>
+        <SwitchPreference
+            android:key="musica"
+            android:title="@string/title_music"
+            android:summary="@string/summary_music"/>
+    </PreferenceScreen-->
+</PreferenceScreen>

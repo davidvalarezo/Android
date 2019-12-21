@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGrayDark"
+    android:screenOrientation="locked"
+    tools:context=".Calculadora">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.80"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.90">
+        <!--
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+        </TableRow>-->
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/b_1"
+                style="@style/ButtonStyleCalculator"
+                android:tag="1"
+                android:text="1" />
+
+            <Button
+                android:id="@+id/b_2"
+                style="@style/ButtonStyleCalculator"
+                android:tag="2"
+                android:text="2" />
+
+            <Button
+                android:id="@+id/b_3"
+                style="@style/ButtonStyleCalculator"
+                android:tag="3"
+                android:text="3" />
+
+            <Button
+                android:id="@+id/b_mul"
+                style="@style/ButtonStyleCalculator"
+                android:text="*" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/b_4"
+                style="@style/ButtonStyleCalculator"
+                android:tag="4"
+                android:text="4" />
+
+            <Button
+                android:id="@+id/b_5"
+                style="@style/ButtonStyleCalculator"
+                android:tag="5"
+                android:text="5" />
+
+            <Button
+                android:id="@+id/b_6"
+                style="@style/ButtonStyleCalculator"
+                android:tag="6"
+                android:text="6" />
+
+            <Button
+                android:id="@+id/b_less"
+                style="@style/ButtonStyleCalculator"
+                android:text="-" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/b_7"
+                style="@style/ButtonStyleCalculator"
+                android:tag="7"
+                android:text="7" />
+
+            <Button
+                android:id="@+id/b_8"
+                style="@style/ButtonStyleCalculator"
+                android:tag="8"
+                android:text="8" />
+
+            <Button
+                android:id="@+id/b_9"
+                style="@style/ButtonStyleCalculator"
+                android:tag="9"
+                android:text="9" />
+
+            <Button
+                android:id="@+id/b_plas"
+                style="@style/ButtonStyleCalculator"
+                android:text="+" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false">
+
+            <Button
+                android:id="@+id/bpoint"
+                style="@style/ButtonStyleCalculator"
+                android:text="." />
+
+            <Button
+                android:id="@+id/b_0"
+                style="@style/ButtonStyleCalculator"
+                android:tag="0"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/b_C"
+                style="@style/ButtonStyleCalculator"
+                android:text="C" />
+
+            <Button
+                android:id="@+id/b_equal"
+                style="@style/ButtonStyleCalculator"
+                android:text="=" />
+        </TableRow>
+
+    </TableLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout6"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout6"
+        app:layout_constraintTop_toTopOf="@+id/tableLayout">
+
+        <TextView
+            android:id="@+id/t_in"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="center|end"
+            android:inputType="textPersonName"
+            android:padding="8dp"
+            android:tag="16"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/t_out"
+            style="@style/TextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="12"
+            android:gravity="center|end"
+            android:hint="0.0"
+            android:padding="8dp"
+            android:shadowColor="#3F51B5"
+            android:shadowRadius="2"
+            android:tag="15"
+            android:text="" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tableLayout"
+        app:layout_constraintEnd_toStartOf="@+id/tableLayout"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/b_div"
+            android:layout_width="65sp"
+            android:layout_height="65sp"
+            android:text="/" />
+
+        <Button
+            android:id="@+id/b_M"
+            android:layout_width="65sp"
+            android:layout_height="65sp"
+            android:text="M " />
+
+        <Button
+            android:id="@+id/b_pts"
+            android:layout_width="65sp"
+            android:layout_height="65sp"
+            android:text="Pts" />
+
+        <Button
+            android:id="@+id/b_D"
+            android:layout_width="65sp"
+            android:layout_height="65sp"
+            android:text="€" />
+    </LinearLayout>
+
+    <!--TextView
+        android:id="@+id/pantalla"
+        style="@style/TextStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/style_borde"
+        android:ems="16"
+        android:gravity="center|end"
+        android:hint="0.0"
+        android:inputType="textPersonName"
+        android:shadowColor="#3F51B5"
+        android:shadowRadius="2"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout5"
+        app:layout_constraintStart_toStartOf="@+id/tableLayout" /-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0616ca8c-c84d-4093-b5c4-200003af960e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../MisLugares/app/src/main/java/org/example/mislugares/Aplicacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MisLugares/app/src/main/java/org/example/mislugares/EditionPlaces.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Toolbar/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Toolbar/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Toolbar/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Toolbar/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Toolbar/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Toolbar/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Toolbar/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Toolbar/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Toolbar/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Toolbar/app/src/androidTest/java/org/dvalarez/toolbar/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Toolbar/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Toolbar/app/src/main/ic_mi_icono-web.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Toolbar/app/src/main/java/org/dvalarez/toolbar/Aplicacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Toolbar/app/src/main/java/org/dvalarez/toolbar/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Toolbar/app/src/main/res/drawable-anydpi/ic_action_search.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Toolbar/app/src/main/res/drawable-hdpi/ic_action_search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Toolbar/app/src/main/res/drawable-mdpi/ic_action_search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Toolbar/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Toolbar/app/src/main/res/drawable-xhdpi/ic_action_search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Toolbar/app/src/main/res/drawable-xxhdpi/ic_action_search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Toolbar/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Toolbar/app/src/main/res/drawable/ic_mi_icono_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Toolbar/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Toolbar/app/src/main/res/menu/menu_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Toolbar/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Toolbar/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Toolbar/app/src/main/res/mipmap-anydpi-v26/ic_mi_icono.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Toolbar/app/src/main/res/mipmap-anydpi-v26/ic_mi_icono_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Toolbar/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Toolbar/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Toolbar/app/src/main/res/mipmap-hdpi/ic_mi_icono.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Toolbar/app/src/main/res/mipmap-hdpi/ic_mi_icono_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Toolbar/app/src/main/res/mipmap-hdpi/ic_mi_icono_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Toolbar/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Toolbar/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Toolbar/app/src/main/res/mipmap-mdpi/ic_mi_icono.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Toolbar/app/src/main/res/mipmap-mdpi/ic_mi_icono_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Toolbar/app/src/main/res/mipmap-mdpi/ic_mi_icono_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Toolbar/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Toolbar/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Toolbar/app/src/main/res/mipmap-xhdpi/ic_mi_icono.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Toolbar/app/src/main/res/mipmap-xhdpi/ic_mi_icono_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Toolbar/app/src/main/res/mipmap-xhdpi/ic_mi_icono_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Toolbar/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Toolbar/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Toolbar/app/src/main/res/mipmap-xxhdpi/ic_mi_icono.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Toolbar/app/src/main/res/mipmap-xxhdpi/ic_mi_icono_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Toolbar/app/src/main/res/mipmap-xxhdpi/ic_mi_icono_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Toolbar/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Toolbar/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Toolbar/app/src/main/res/mipmap-xxxhdpi/ic_mi_icono.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Toolbar/app/src/main/res/mipmap-xxxhdpi/ic_mi_icono_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Toolbar/app/src/main/res/mipmap-xxxhdpi/ic_mi_icono_round.png" afterDir

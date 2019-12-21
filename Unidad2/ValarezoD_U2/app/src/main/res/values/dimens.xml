@@ -1,0 +1,7 @@
+<resources>
+    <dimen name="margin_botones">30dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="b_calculatorX">60sp</dimen>
+    <dimen name="b_calculatorY">180sp</dimen>
+    <dimen name="bX">65sp</dimen>
+</resources>

@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Asteroides</string>
+    <string name="Arrancar">Jugar</string>
+    <string name="Configurar">Configurar</string>
+    <string name="Acercade">Acerca de</string>
+    <string name="Score">Puntuaciones</string>
+    <string name="Salir">Salir</string>
+    <string name="titleApp">Asteroides</string>
+    <string name="action_setting">Configuración</string>
+    <string name="about_text">Este programa ha sido desarrollado como ejemplo en la clase de Android</string>
+    <!-- Preferens -->
+    <string name="preferences">Preferencias</string>
+    <!--string name="key_music">musica</string -->
+    <string name="title_music">Reproducir música</string>
+    <string name="summary_music">Se reproduce música de fondo</string>
+
+    <!-- string name="key_graphics">graficos</string -->
+    <string name="title_graphics">Tipo de gráficos</string>
+    <string name="summary_graphics">Se escoge la representación de gráficos</string>
+
+    <!--string name="key_fragments">fragmentos</string -->
+    <string name="title_fragments">Número de Fragmentos</string>
+    <string name="summary_fragments">En cuantos trozos se divide un asteroide</string>
+    <string name="title_preferences">Modo multijugador</string>
+
+    <string name="title_multiplayer">Activar multijugador</string>
+    <string name="mode_multiplayer">Modo multijugador</string>
+    <string name="title_max_player">Máximo de jugadores</string>
+    <string name="title_conection_type">Tipo de conexión</string>
+
+    <string name="mode_play">Modo de juego</string>
+    <string name="game_controls">Controles de entrada</string>
+    <string name="summary_controls">Como controlar el juego</string>
+
+    <string name="Error_ET_pref">Ha de ser un número</string>
+    <string name="max_numFragments">Máximo de fragmentos 9</string>
+    <!-- Puntuaciones -->
+    <string name="msg_selection">Selección: </string>
+
+
+</resources>

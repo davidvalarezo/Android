@@ -63,6 +63,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             lanzarAcercaDe(null);
             return true;
         }
+        if (id == R.id.menu_buscar){
+            //lanzarBuscar(null);
+            return true;
+        }
         if (id == R.id.salida){
             finish();
             return true;

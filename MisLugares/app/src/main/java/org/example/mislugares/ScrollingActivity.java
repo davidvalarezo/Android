@@ -43,6 +43,7 @@ public class ScrollingActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        /***/
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -68,10 +69,20 @@ public class ScrollingActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            lanzarSetting ( null);
+            return true;
+        }
+        if (id == R.id.menu_buscar){
+            //lanzarBuscar(null);
             return true;
         }
         if (id == R.id.action_about){
             lanzarAcercaDe(null);
+            return true;
+        }
+
+        if (id == R.id.edition_places){
+            lanzarSetting(null);
             return true;
         }
         return super.onOptionsItemSelected(item);
@@ -79,6 +90,11 @@ public class ScrollingActivity extends AppCompatActivity {
 
     public void lanzarAcercaDe (View view){
         Intent i = new Intent(this,AcercaDeActivity.class );
+        startActivity(i);
+    }
+
+    public void lanzarSetting (View view){
+        Intent i = new Intent(this,EditionPlaces.class );
         startActivity(i);
     }
 

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Asteroids</string>
+    <string name="Arrancar">Play</string>
+    <string name="Configurar">Setting</string>
+    <string name="Acercade">About</string>
+    <string name="Score">Scores</string>
+    <string name="Salir">Exit</string>
+    <string name="titleApp">Asteroids</string>
+    <string name="action_setting">Setting</string>
+    <string name="about_text">This program has been developed like the example in Android class</string>
+    <!-- Preferens -->
+    <string name="preferences">Preferences</string>
+    <!--string name="key_music">music</string -->
+    <string name="title_music">Play music</string>
+    <string name="summary_music">Background music is played</string>
+    <!--string name="key_graphics">graphics</string -->
+    <string name="title_graphics">Type of graphics</string>
+    <string name="summary_graphics">The graphics representation is chosen</string>
+    <!-- string name="key_fragments">fragments</string -->
+    <string name="title_fragments">Fragments Numbers</string>
+    <string name="summary_fragments">Number of fragments that an asteroid is divided</string>
+    <string name="title_preferences">Multiplayer Mode</string>
+    <string name="title_multiplayer">Activate multiplayer</string>
+    <string name="mode_multiplayer">Multiplayer Mode</string>
+    <string name="title_max_player">Players maximum</string>
+    <string name="title_conection_type">Type of conection</string>
+
+    <string name="Error_ET_pref">It must be a number between 0 and 9</string>
+    <string name="max_numFragments">Maximum fragments 9</string>
+
+    <string name="mode_play">Game mode</string>
+    <string name="game_controls">Input controls</string>
+    <string name="summary_controls">How to control the game</string>
+    <!-- Puntuaciones -->
+    <string name="msg_selection">Selection: </string>
+
+    <string name="title_storage">Score storage</string>
+    <string name="mode_storage">Storage types</string>
+    <string name="summary_storage">Different modes to store scores</string>
+    <string name="intenal_memory">Internal memory file</string>
+
+    <string name="mode_extDirPath">External Storages</string>
+    <string name="summary_extDirPath">It allows selecting different external storages</string>
+</resources>
